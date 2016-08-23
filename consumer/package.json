@@ -1,0 +1,21 @@
+{
+  "name": "consumer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "express": "~4.13.4",
+    "debug": "*",
+    "minimist": "~1.2.0",
+    "winston": "~2.2.0",
+    "twitter" : "*",
+    "cassandra-driver": "*"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
